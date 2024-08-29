@@ -22,3 +22,13 @@ PREFIX : <http://example.org/>
   :title "Understanding W.G. Sebald" ;
   :pages 193 ;
   :about :w-g-sebald .
+
+:dark-secrets-of-manning-hall a :Book ;
+  :title "Dark Secrets of Manning Hall" ;
+  :author :nathaniel-hornblower ;
+  :publisher "Random House" ;
+  :publication_year 1985 .
+
+:nathaniel-hornblower a :Author ;
+  :given_name "Nathaniel" ;
+  :surname "Hornblower" .
